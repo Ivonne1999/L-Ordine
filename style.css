@@ -1,0 +1,204 @@
+body {
+	
+	font-family: 'Roboto', 'georgia', 'times';
+	color: #333;
+	font-size: 1.2rem;
+	line-height: 1.4em;
+	margin: 0;
+}
+
+
+
+
+h1 {
+	font-size: 2.rem;
+	line-height: 1.3em;
+	
+}
+
+p {
+	
+margin-bottom: 1.6em;
+	
+}
+.container {
+	width: 100%;
+	max-width: auto;
+	margin: 0 auto;
+}
+
+.header {
+	background: #4eabc7;
+   color: white;
+	padding: 2rem 0;
+	
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+
+.acercade-header{
+	background: #e77bb7;
+   color: white;
+	padding: 2rem 0;
+	
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+
+img {
+	display: block;
+	margin: auto;
+max-width: 100%;
+	height: auto;
+}
+
+
+.header a {
+	color:white;
+	text-decoration: none;
+	
+}
+
+.logo-nav-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.logo{
+	letter-spacing: 5px;
+	font-size: 1.3em;
+	
+}
+.menu-icon{
+	display: none;
+	
+}
+
+.meacomodo-section{
+	position: center;
+align-items: center;
+
+
+}
+
+.yo-section {
+	position: center;
+align-items: center;
+text-align: center;
+color: pink;
+
+}
+.titulo-libros
+{
+	font-size: 3rem;
+	position: center;
+align-items: center;
+text-align: center;
+color: rgb(255, 255, 255);
+
+}
+
+.mifotofea-img
+{
+	width: auto;
+
+}
+.contact-overlay{
+	background-color: pink;
+
+}
+
+contact-container{
+	background-color: pink;
+
+}
+
+.nombre-title{
+
+	text-align: center;
+	color: rgb(39, 39, 39);
+	
+	}
+
+
+
+.navigation ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	
+}
+.navigation ul li {
+	display: inline-block;
+	
+}
+
+.navigation ul li a {
+	display: block;
+	padding: 0.5rem 1rem;
+	transition: all 0.4s linear;
+	border-radius: 10px;
+}
+.navigation ul li a:hover{
+	background: #D9D9D9;
+}
+
+
+.main{
+	padding-top: 10rem;
+	align-items: center;
+	
+}
+
+.footer{
+	background: #f2f2f2;
+	padding: 1rem 0;
+	text-align: center;
+	margin-top: 3rem 0;
+	
+}
+
+
+@media only screen and (max-width: 767px) {
+	
+	.menu-icon{
+		display: block;
+		cursor: pointer;
+	}
+	.navigation ul {
+		display: none;
+	}
+	.navigation ul.show {
+		display: block;
+	}
+	
+	.navigation{
+		width: 100%;
+		margin-top: 1rem;
+	}
+
+.navigation ul li {
+	display: block;
+	
+}
+
+.navigation ul li a {
+	display: block;
+	padding: 0.5rem 0rem;
+	transition: all 0.4s linear;
+	border-radius: 10px;
+}
+.navigation ul li a:hover{
+	background: #D9D9D9;
+}
+
+
+	
+
+	
+}
